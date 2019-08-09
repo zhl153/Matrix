@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+    tools:context="com.laioffer.matrix.MainActivity">
+    <!--动态寻找fragment-->
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt; // 静态初始化-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.laioffer.matrix.MainActivity">-->
+
+    <!--&lt;!&ndash;display a row/column list of items&ndash;&gt;-->
+    <!--<ListView android:id="@+id/event_list"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent">-->
+    <!--</ListView>-->
+
+    <!--<fragment android:name="com.laioffer.matrix.EventFragment"-->
+        <!--android:id="@+id/event_fragment"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent">-->
+    <!--</fragment>-->
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:id="@+id/event_container">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/event_container"
+        android:id="@+id/comment_container">
+    </RelativeLayout>
+</RelativeLayout>

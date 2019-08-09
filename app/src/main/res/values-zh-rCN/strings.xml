@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">矩阵</string>
+    <string name="country">美国</string>
+
+    <string name="hello_blank_fragment">你好 空页面</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="gps_string">Lat=%d, Long=%d</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>
