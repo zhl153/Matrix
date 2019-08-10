@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">矩阵</string>
+    <string name="app_name">交通</string>
     <string name="country">美国</string>
 
     <string name="hello_blank_fragment">你好 空页面</string>

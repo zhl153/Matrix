@@ -11,5 +11,15 @@
             android:checked="true"
             android:icon="@drawable/baseline_settings_black_18dp"
             android:title="Logout" />
+        <item
+        android:id="@+id/drawer_author"
+        android:checked="true"
+        android:icon="@drawable/author_icon_4"
+        android:title="Project of Zheng Li" />
+        <item
+            android:id="@+id/drawer_contact"
+            android:checked="true"
+            android:icon="@drawable/mail"
+            android:title="lzhzhl@outlook.com" />
     </group>
 </menu>
